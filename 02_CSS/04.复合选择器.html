@@ -22,6 +22,10 @@
         div.red{
             font-size: 30px;
         }
+		div.hello{
+			background-color: red;
+			font-size: 50px;
+		}
 
         .a.b.c{
             color: blue
@@ -36,22 +40,33 @@
 
                 #b1,.p1,h1,span,div.red{}
          */
+		h1标签和red类选择器都为yellow
         h1, .red{
-            color: green
+            color: yellow
         }
+		
+		h2, .hello{
+			color: #00FFFF;
+		}
 
     </style>
 </head>
 <body>
     <div class="red">我是div</div>
+	
+    <div class="hello">我是div-hello</div>
 
     <p class="red">我是p元素</p>
 
-    <div class="red2 a b c">我是div2</div>
+    <div class="red66 a b c">我是div2</div>
 
     <h1>标题</h1>
 
     <span>哈哈</span>
+	
+	<h2>nihao</h2>
+	
+	<span class="hello">ceshiyixia</span>
 
     
 </body>
